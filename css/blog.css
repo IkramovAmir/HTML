@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 90%;
+    width: 1440px;
+    margin: 0 auto;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 2px 1px aqua;
+}
+
+    
+
+.header_info{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px 1px;
+
+}
+
+.header_links_list{
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 23px;
+}
+
+.header_links_list_item{
+    opacity: 0.4;
+}
+
+.header_links_list_item a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.hero_title{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.hero_year{
+    padding-left: 50px;
+    position: sticky;
+    top: 100px;
+    z-index: 1200;
+}
+.hero_year p{
+    border-color: red;
+    background-color: rgb(215, 215, 215);
+    width: 100px;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.hero_month{
+    font-size: 34px;
+    padding: 20px 40px;
+}
+
+hr{
+    width: 1450px;
+    margin-left: 30px;
+}
+
+.hero_info{
+    padding: 40px 50px;
+    cursor: pointer;
+}
+
+.hero_date{
+    opacity: 0.4;
+    font-size: 20px;
+}
+
+.hero_name{
+    font-size: 25px;
+}
+
+.hero_info hr{
+    width: 1450px;
+    margin-left: -23px;
+    margin:30px 0px;
+}

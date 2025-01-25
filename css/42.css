@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 90%;
+    width: 1440px;
+    margin: 0 auto;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: rgb(244, 195, 140);
+}
+.header_infos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header_list{
+    display: flex;
+    gap: 40px;
+}
+
+.header_logo{
+    font-size: 50px;
+}
+
+.header_list_item{
+    font-size: 30px;
+}
+
+.header_list_item a:hover{
+    background-color: aqua;
+    color: rgb(245, 132, 4);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.button_enter{
+    padding: 10px 55px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: aqua;
+    color: blue;
+}
+
+.button_enter:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.4s;
+}
+
+.hero1{
+    padding-top: 150px;
+}
+.hero1_text{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(247, 132, 0);
+}
+
+.hero1_pictures{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.hero1_pictures img{
+    width: 600px;
+}
+
+.course{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.course_list{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.course_list_item{
+    border-color: rgb(81, 252, 246);
+    background-color: rgb(255, 3, 3);
+    color: aqua;
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.course_list_item:hover{
+    color: black;
+    background-color: aqua;
+    transition: 0.5s;
+}

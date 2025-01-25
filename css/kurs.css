@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 90%;
+    width: 1440px;
+    margin: 0 auto;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: rgb(238, 251, 255);
+}
+.header_infos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header_list{
+    display: flex;
+    gap: 40px;
+}
+
+.header_logo{
+    font-size: 50px;
+}
+
+.header_list_item{
+    font-size: 30px;
+}
+
+.header_list_item a:hover{
+    background-color: aqua;
+    color: rgb(249, 0, 0);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.button_enter{
+    padding: 10px 55px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: aqua;
+    color: rgb(247, 113, 4);
+}
+
+.button_enter:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.4s;
+}
+
+.hero2_title{
+    padding-top: 50px;
+    font-size: 35px;
+}
+.hero2_pictures{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+
+.hero2_pictures1_img img{
+    width: 600px;
+}
+
+.hero2_pictures1_title{
+    font-size: 40px;
+}
+
+.hero2_pictures1_text{
+    font-size: 17px;
+    opacity: 0.5;padding: 10px 0px;
+}
+
+.hero2_pictures_lesson{
+    font-size: 19px;
+}
+
+.hero2_pictures1_button{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 10px 170px;
+}
+
+.hero2_pictures1_button:hover{
+    background-color: white;
+    color: black;
+}
+
+.hero2_pictures1_buttons{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+}
